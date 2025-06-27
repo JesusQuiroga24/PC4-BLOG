@@ -12,7 +12,7 @@ backgroundColor = "#FF6F59"
 secondaryBackgroundColor = "#43AA8B"
 
 # Color used for almost all text. (color de texto)
-textColor = "#B2B09B"
+textColor = "#000000"
 
 # This can be one of the following: (tipografías)
 # - "sans-serif"
