@@ -192,7 +192,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>El mapa refleja la locación de grabacion de cinco de mis peliculas favoritas</div>", unsafe_allow_html=True)
         # Si "¿Donde se filmaron mis top 5 peliculas favoritas?.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
-        with open("GRAFICO_TOTAL_OFF_STAGE_NON_OFFICIAL_SOLO.html", "r", encoding="utf-8") as f:
+        with open("mapa.html", "r", encoding="utf-8") as f:
             html_content = f.read()
         components.html(html_content, height=500)
         pass
